@@ -1,0 +1,1951 @@
+/*homepage*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+:root {
+    font-size: clamp(0.9rem, 0.5svw + 0.6em, 1.125rem);
+   /* font-size: calc(1vw + 0.6em);*/
+   /* font-size: clamp(0.9rem, 0.6rem + 0.5svw, 1.5rem);*/
+    }
+    
+
+ .hero1{
+    padding: 2em 1em;
+    position: relative;
+    text-align: center;
+    background-image: url(weeding-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    color: #fff;    
+}
+@media (min-width: 560px){
+    .hero1{
+        height: 60vh;
+        font-size: 1.2rem;
+        padding: 3em;
+        }
+       
+            }
+
+
+.titleintro{
+    font-size: 1rem;
+    padding-top: 1rem;
+    text-shadow: 0.1em 0.1em 0.3em #000
+}
+
+.titlewedding{
+    padding-top: 0.5rem;
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    text-shadow: 0.1em 0.1em 0.3em #000
+}
+
+.titleplanners{
+    font-weight: normal;
+    padding-top: 1.5rem;
+    text-shadow: 0.1em 0.1em 0.3em #000
+}
+.title{
+    margin-top: 6rem ;
+}
+
+.ringlogo{
+    position: absolute;
+    top: 0.8rem;
+    left: 0.8rem;
+
+}
+
+.menu {
+    position: relative;
+}
+
+.menu-toggle {
+    position: absolute;
+    top: -1.2em;
+    right: 0.1em;
+    border: 0;
+    background-color: transparent;
+    font-size: 3em;
+    width: 2em;
+    height: 2em;
+    line-height: 0.4;
+    text-indent: 5em;
+    white-space: nowrap;
+    overflow: hidden;
+    }
+    
+    .menu-toggle::after {
+        position: absolute;
+        top: 1em;
+        left: 1.2em;
+        display: block;
+        content: "\2261";
+        text-indent: 0;
+        color: #fff;
+        }
+
+        .menu-dropdown {
+            display: none;
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: 0;
+        }
+
+        .menu.is-open .menu-dropdown {
+            display: block;
+            }
+
+            .nav-menu {
+                margin: 0;
+                padding-left: 0;
+                border: 1px solid #ccc;
+                list-style: none;
+                background-color: rgb(243, 236, 236);
+                color: #ccc;
+                margin-top: 2em;
+                text-align: left;
+                }
+
+                .nav-menu > li + li {
+                    border-top: 1px solid #ccc;
+                    }
+
+                    .nav-menu > li > a {
+                        display: block;
+                        padding: 0.8em 1em;
+                        color: #9e9a9a;
+                        font-weight: normal;
+                        text-decoration: none
+                    }
+
+                    .div1{
+                        
+                        margin-top: 2rem;
+                        background-color: rgb(243, 236, 236);;
+                        padding-top: 3rem;
+                        padding-bottom: 4rem;
+                    }
+
+                    .yourexclusive{
+                        padding-top: 3rem;
+                        text-align: center;
+                        font-weight: normal;
+                        font-size: 1.5rem;
+                        }
+
+                        .wedding{
+                            font-size: 2.5rem;
+                            text-align: center;
+                            letter-spacing: .1rem;
+                            padding-top: 1rem
+                        }
+
+                        .planners{
+                            font-size: 2.8rem;
+                            font-family: 'Times New Roman', Times, serif;
+                            text-align: center;
+                            padding-top: 1rem;
+                            letter-spacing: .1rem;
+                        }
+
+                        .weddinpplannerparagraph{
+                            font-family: sans-serif;
+                            line-height: 1.5;
+                            color:  #9e9494;
+                            padding: 1rem;
+                            margin-top: 1.5rem; 
+                            text-align: center;   
+                        }
+                        .overlappingimages{
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                            width: 90%;
+                        }
+
+                        
+
+    .div1 .read{
+    
+        /*display: block;*/
+        text-decoration: none;
+        text-align: center;
+       /* border: rgb(240, 124, 124) solid thin;*/
+        /*margin-left: auto;
+        margin-right: auto;*/
+        margin-left: 0;
+        margin-right:0;
+        margin-top: 0;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0.6rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        color: #9e9494;
+        border-radius: 3px;
+        
+    }
+     
+    .readbutton {
+        display: block;
+        margin-left: auto;
+        margin-right: auto ;
+        padding: 0; 
+        cursor: pointer;
+        padding: 0.6rem;
+        border:  rgb(240, 124, 124) solid thin;
+    }   
+    .readbutton:hover{
+        background-color:  rgb(240, 124, 124); 
+       
+    }
+   .read:hover {
+       background-color:  rgb(240, 124, 124); 
+       color:#fff
+    }
+
+    .occae{
+        /*position: relative;*/
+    }
+
+    .oca{
+       /* padding-top: 9rem;*/
+        text-align: center;
+        font-size: 1.5rem;
+       
+    }
+
+    .wineglassicon{
+        display: block;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+    /*width: 50px;*/
+        
+        
+        /*position: absolute;
+        top: 6rem;
+        left: 11rem;*/
+
+    }
+
+    .occaeparagraph{
+        padding: 1rem;
+        text-align: center;
+        color: #9e9494;
+        line-height: 1.5;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .ali{
+        text-align: center;
+        font-size: 1.5rem;
+       /* padding-top: 2rem;*/
+        
+    }
+.aliquamparagraph{
+        padding: 1rem;
+        text-align: center;
+        color: #9e9494;
+        line-height: 1.5;
+        font-family:Arial, Helvetica, sans-serif;
+        
+
+}
+
+.aliquam{
+    
+}
+
+.flower{
+    
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    
+
+}
+
+/*.felis{
+    position: relative;
+}*/
+
+.camera{
+/*position: absolute;*/
+/*left: 11rem;*/
+display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.felisheading{
+        text-align: center;
+        font-size: 1.5rem;
+        padding-top: 0;
+
+    }
+    .felsparagraph{
+        padding: 1rem;
+        text-align: center;
+        color: #9e9494;
+        line-height: 1.5;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .followusparagraph{
+       /* padding-top: 17rem;
+        padding-bottom: 12rem;*/
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 2rem;
+        color: rgb(241, 144, 144);     
+    }
+
+    .firsthreepicgallery{
+        background: rgb(243, 236, 236);
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        
+    }
+
+    .firsthreepicgallery .pent{
+        margin-top: 2rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        margin-top: 1rem;
+    }
+    .dubai{
+        margin-top: 2rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        margin-top: 1rem;
+
+    }
+
+    .bridalgirl{
+        margin-top: 1rem;
+        margin-top: 2rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        margin-top: 1rem;
+    }
+    
+    .outstanding{
+        font-weight: normal;
+        font-size: 1.3rem ;
+        text-align: center;
+    }
+
+    .destwedding{
+        text-align: center;
+        margin-top: 1.2rem;
+        font-size: 2.2rem
+    }
+    .destinationparagragh{
+        padding: 1rem;
+        text-align: center;
+        color: #9e9494;
+        line-height: 1.5;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .seevenue{
+        /*display: inline-block;*/
+        text-decoration: none;
+        text-align: center;
+       */ border: rgb(240, 124, 124) solid thin;*/
+        margin-left: 0rem;
+        margin-right: 0rem;
+       /* margin-top: rem;*/
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0.6rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        color: #9e9494;
+        border-radius: 3px;
+    }
+
+        .venuebutton{
+        display: block;
+        margin-left: auto;
+        margin-right: auto ; 
+        cursor: pointer;
+        padding: 0.6rem;
+        padding-left: 0;
+        padding-right: 0;
+        border: rgb(240, 124, 124)  solid thin;
+        }
+.venuebutton:hover{
+    background-color: rgb(240, 124, 124) 
+}
+
+       
+    
+    .seevenue:hover{
+        background-color:  rgb(240, 124, 124); 
+        color:#fff
+     }
+    .hero2{
+    padding: 2em 1em;
+    position: relative;
+    text-align: center;
+    background-image: url(pic16.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    color: #fff;  
+    margin-top: 2em; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%; 
+    }
+    .secondtitleintro{
+        font-size: 1rem;
+        padding-top: 1.5rem;
+        text-shadow: 0.1em 0.1em 0.3em #000;
+
+    }
+
+    .looking{
+        font-weight: normal;
+        padding-top: 0.5rem;
+        /*margin-top: 0.5rem;*/
+        text-shadow: 0.1em 0.1em 0.3em #000; 
+        color:rgb(233, 120, 120); 
+    }
+    
+    .services{
+        padding-top: 2.5rem;
+        font-size: 2.5rem;
+        letter-spacing: 1.5px;
+        text-shadow: 0.1em 0.1em 0.3em #000;
+        
+    }
+    .bookweddingdate{
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        border: white solid thin;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 2rem;
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0.6rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        color: white;
+        border-radius: 3px;
+    }
+    .bookweddingdate:hover{
+        background-color:  whitesmoke; 
+        color:#000
+     }
+
+     .joeyandphoebe{
+        background-color: rgb(243, 236, 236);
+        margin-top: 1.5rem;
+        padding-bottom: 1rem;
+        padding-top: 4rem;
+     }
+     .joey{
+        /*margin-left: 10rem;
+        */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       
+
+     }
+     .joeyparagraph{
+        margin: 2rem;
+        font-size: 1.5rem;
+        text-align: center;
+        color: #9e9a9a;
+     }
+     .joeyparagraph > span{
+            display: inline-block;
+            font-size: 1.2rem;
+            margin-top: 1.5rem;
+            color:  rgb(228, 112, 112);  
+     }
+
+     .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        margin-top: 1rem;
+        
+     }
+     .gallery{
+        background-color: rgb(243, 236, 236);
+        margin-top:2rem;
+        /*padding-top: 8rem;*/
+        padding-bottom: 4rem;
+     }
+     .grand > span{
+        display: block;
+       /* font-size: 1.2rem;*/
+        margin-top:2rem
+     }
+     .grandspan{
+        display: inline-block;
+       /* font-size: 2rem;*/
+        margin-top: 2rem;
+     }
+     .followus{
+        padding: 2em 1em;
+        position: relative;
+        text-align: center;
+        background-image: url(hero.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 55vh;
+       /* background-color: rgba(0, 0, 0, 0.5);*/
+        background-blend-mode: darken;
+        color: #fff;  
+        margin-top: 2rem; 
+        margin-bottom: 2rem
+         
+        }
+    .grandfirstparagraph{
+        margin-top: 2rem;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .grandlastparagraph{
+        margin-top: 1.2rem; 
+    }
+    .gallery div{
+        /*font-size: 1.2rem;*/
+        /*margin-top: 1rem;*/
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .gallery span{
+        font-size: 1rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .galleryhead{
+        font-size: 1rem;
+        padding-top: 3rem;
+        text-align: center;
+    }
+    .secondgrand{
+        background-color: rgb(230, 94, 94);
+        color: white;
+        padding: 2rem;
+        padding-bottom: 7rem;
+        margin-top: 2rem;
+    }
+.fancy{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    
+}
+
+.anothergrandparagraph{
+    margin-top: 2rem;
+    text-align:center;
+    font-size: 1.2rem
+    
+}
+ .newgrand{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+ }    
+ .newgrandparagraph{
+    text-align:center;
+    margin-top: 1rem;
+    font-size: 1.1rem
+ }
+
+ .contactus{
+    padding: 1rem;
+    padding-bottom: 4rem;
+ }
+
+ .messageus{
+    text-align: center;
+    margin-top: 1rem;
+ }
+
+ .messageusparagraph{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6b6a6a;
+    line-height: 1.5;
+    margin-top: 1rem;
+ }
+ 
+ .yourinformationhome{
+    margin-top: 1.5rem;
+    font-size: 2.2rem;
+ }
+
+ .yourinformationhome input:not([type=checkbox]):not([type=radio]){
+    display: block;
+    inline-size: 100%;
+    padding-left: 0.2rem;
+    height: 2rem;
+    background-color: rgb(255, 254, 254);
+ }
+
+ .yourinformationhome button {
+    margin-block-start: 1em;
+    border: 1px solid #cc6b5a;
+    background-color: white;
+    padding: 0.5em 3em;
+    cursor: pointer;
+    left: 5rem;
+    bottom: -1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .yourinformationhome button:hover{
+        background-color:  rgb(240, 124, 124); 
+        color:#fff
+     }
+
+ .yourinformationhome textarea:not([type=checkbox]):not([type=radio]){
+    display: block;
+    inline-size: 100%;
+    margin-top: 1.5rem;
+    padding-left: 0.2rem;
+    background-color: rgb(255, 254, 254);
+ }
+
+ .footer{
+    background-color: rgb(56, 55, 55);
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: sans-serif;
+    text-align: center;
+ }
+.footer > p + p{
+    margin-top: 2rem;
+
+}
+
+ /*about page*/
+
+ .heroabout {
+    padding: 2em 1em;
+    position: relative;
+    text-align: center;
+    background-image: url(about-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    color: #fff;    
+}
+   
+.titleintro2{
+    font-size: 1rem;
+    padding-top: 1rem;
+    text-shadow: 0.1em 0.1em 0.3em #000
+}
+
+.titlewedding2{
+    padding-top: 0.5rem;
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    text-shadow: 0.1em 0.1em 0.3em #000
+}
+
+.div1about{
+    margin-top: 2rem;
+    background-color: rgb(243, 236, 236);;
+    padding-top: 3rem; 
+    padding-bottom: 3rem
+}
+
+.perfection{
+    padding-top: 3rem;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.5rem;
+    }
+.helper{
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: .1rem;
+    padding-top: 1rem
+}
+
+.helperparagraph{
+    font-family: sans-serif;
+    line-height: 1.5;
+    color:  #9e9494;
+    padding: 2rem;
+    margin-top: 1rem; 
+    text-align: center;   
+}
+    
+.helperdiv{
+    /*position: relative;*/
+}
+                            
+.collabo{
+   /* padding-top: 7rem;*/
+    text-align: center;
+    font-size: 1.5rem;
+   
+}
+.envelope{
+    /*position: absolute;*/
+   /* top: 4rem;*/
+   /* left: 11rem;*/
+   display: block;
+   margin-left: 17rem;
+   margin-top: 5rem;
+   margin-left: auto;
+   margin-right: auto;
+   width:50px;
+}
+
+
+.helperparagraph1{
+    padding: 0.5rem;
+    text-align: center;
+    color: #9e9494;
+    line-height: 1.5;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+.selectdestination{
+   /* position: relative;*/
+}
+
+.selectdestinationhead{
+    text-align: center;
+    font-size: 1.5rem;
+    /*margin-top:7rem ;*/
+    margin-bottom:0 ;
+    
+}
+.globe{
+   /* margin-left: 11rem ;*/
+    margin-top: 3rem;
+    /*position: absolute;*/
+  /*  bottom: 3rem;
+    left: 11rem;*/
+    display: block;
+    margin-left: auto;
+   margin-right: auto;
+    width:50px;
+}
+.helperparagraph2{
+margin-bottom: 5rem;
+font-family: sans-serif;
+line-height: 0.5;
+color:  #9e9494;
+padding:0;
+margin-top: 1rem; 
+text-align: center;   
+}
+.startplan{
+    /*position: relative;*/
+}
+
+.plan{
+    text-align: center;
+    font-size: 1.5rem; 
+    padding-bottom: 1;
+}
+
+.startplan{
+   /* position: relative;*/
+}
+
+.plan{
+    margin-top: 3rem;
+}
+
+.calculator{
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    display: block;
+    margin-left: auto;
+   margin-right: auto;
+   width:50px;
+}
+
+.helperparagraph3{
+    margin-bottom: 3rem;
+    font-family: sans-serif;
+    line-height: 0.5;
+    color:  #9e9494;
+    padding:0;
+    margin-top: 1rem; 
+    text-align: center;   
+    }
+
+    .darkdiv{
+        background-color: black;
+        padding-top: 4rem;
+        margin-top: 1.5rem;
+        color:#fff;
+    }
+.flowerbride{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    margin-top: 1rem;
+}
+
+.placet{
+    display: block;
+    color: rgb(226, 59, 59);
+    font-size: large;
+    font-weight: lighter;
+    margin-top: 0.5rem;
+}
+.firstset{
+    font-size: 4rem;
+    font-weight:bolder;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.firstnumbers{
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+   /* display: flex;*/
+}
+
+.groom{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    margin-top: 1.5rem;
+    padding-bottom: 3.5rem;
+}  
+
+.meetplanners{
+    background-color: rgb(243, 236, 236);
+    color: rgb(80, 78, 78);
+   
+}
+
+.meetplanners > h1{
+    font-size: 1.1rem;
+    text-align:center;
+    padding-top: 5rem;
+    
+}
+
+.planer{
+    display: block;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+.planerparagragh{
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.team1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 1.5rem;
+    padding-bottom: 1rem; 
+}
+
+.team1 figcaption{
+text-align: center;
+font-size: 1.5rem;
+font-weight: bold;
+margin-top: 0;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.team1 span{
+    display: block;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    margin-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.secondgrand1{
+    background-color: rgb(230, 94, 94);
+    color: white;
+    padding: 2rem;
+    padding-bottom: 7rem;
+    
+}
+
+.team{
+    padding-bottom: 4rem;
+}
+
+/*services*/
+
+.heroservices {
+    padding: 2em 1em;
+    position: relative;
+    text-align: center;
+    background-image: url(services-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    color: #fff;    
+}
+
+@media (min-width: 560px){
+    .heroservices{
+        height: 50vh;
+        padding: 4em;
+    }
+}
+
+
+.servicethebest{
+    background-color:  rgb(243, 236, 236);
+    padding: 1rem;
+    padding-top: 4rem;
+    text-align: center;
+    margin-top: 1.5rem
+}
+
+.servicethebestparagragh{
+    margin-top: 1.5rem;
+    line-height: 1.5;
+    color: #6b6a6a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bestbutton{
+/*display: inline-block;*/
+text-decoration: none;
+text-align: center;
+/*border: rgb(240, 124, 124) solid thin;*/
+margin-left: 0rem;
+margin-right: 0rem;
+margin-top: 0.5rem;
+font-size: 1rem;
+font-family: Arial, Helvetica, sans-serif;
+padding: 0.6rem;
+padding-left: 2.5rem;
+padding-right: 2.5rem;
+color: #9e9494;
+border-radius: 3px;
+margin-top: 2rem;
+}
+.startplanbutton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto ; 
+    cursor: pointer;
+    padding: 0.6rem;
+    padding-left: 0;
+    padding-right: 0;
+    border: rgb(240, 124, 124)  solid thin;
+    margin-top: 1rem;
+}
+.bestbutton:hover {
+    background-color:  rgb(240, 124, 124); 
+    color:#fff
+ }
+
+ .center1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;   
+ }
+
+ .center2{
+    display: block;
+    margin-top: -3.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;   
+ }
+
+ .servicesgallery{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+ }
+
+ .servicescamera{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+   
+ }
+
+ .servicesicon{
+background-color: rgb(243, 236, 236); 
+margin-top: 2rem;
+padding-top: 4rem;
+padding-bottom:1.5rem;
+
+ }
+
+ .catering{
+    background-color: white;
+    margin: 3rem;
+    padding: 3rem;
+    border-radius: 3px;
+    color:#6b6a6a;
+ }
+
+ .catering h2{
+    text-align: center;
+    
+
+ }
+
+ .catering p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2rem;
+    line-height: 1.5;
+ }
+
+ .serviceshero{
+    padding: 2em 1em;
+    position: relative;
+    text-align: center;
+    background-image: url(pic25-free-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    background-color: rgba(134, 128, 128, 0.5);
+    background-blend-mode: darken;
+    color: #fff;   
+    margin-top: 2rem; 
+ }
+
+ .serviceshero h2{
+    margin-top: 2rem;
+    font-size: 2rem;
+ }
+
+ .serviceshero p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-top: 2rem
+ }
+ .servicesherolink{
+    display: block;
+    margin-top: 2rem;
+ }
+
+ .servicesherolink{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border: rgb(240, 124, 124) solid thick;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    font-size: rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.6rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: white;
+    border-radius: 3px;
+    margin-top: 2rem;
+    font-weight:bold
+ }
+
+ .servicesherolink:hover {
+    background-color:  rgb(240, 124, 124); 
+    color:#fff;
+ }
+
+ /*gallery*/
+
+ .herogallery{
+    padding: 2em 1em;
+    position: relative;
+    text-align: center;
+    background-image: url(pic25-free-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    color: #fff;     
+ }
+
+ .galleryphoto{
+    background-color: rgb(243, 236, 236) ;
+    margin-top: 2rem;
+    padding-top: 2rem;
+ }
+
+ @media (min-width: 560px){
+    .nicevenue{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+ }
+
+ @media (min-width: 560px){
+    .overlappingimages{
+        padding: 2em;
+    }
+}
+
+@media (min-width: 560px){
+.center{
+
+    padding-left: 3em;
+    padding-right: 3em;
+}
+}
+
+@media (min-width: 750px){
+    :root{
+        
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+.menu-dropdown {
+display: block;
+position: static;
+}
+.nav-menu {
+    display: flex;
+    border: 0;
+    padding-inline:0;
+    background-color: transparent;
+    margin-top: -2em;
+    /*gap: -3em;*/
+    margin-left: 5em;
+    gap: 2rem;
+}
+
+.home{
+    margin-inline-start: auto;
+}
+
+.nav-menu > li {
+    /*flex: 1;*/
+    
+    }
+    .nav-menu > li + li {
+    border: 0;
+
+   
+    }
+    .nav-menu > li > a {
+    padding: 0;
+    text-align: right;
+    font-size: 1em;
+    font-family: sans-serif;
+    color:#fff;
+    
+    }
+    .nav-menu > li > a:hover{
+        color:tomato
+    }
+
+    .nav-menu > li > a:active{
+        color:tomato
+    }
+
+}
+
+    @media (min-width: 650px){
+
+    .flex1{
+        margin: 0;
+        display: flex;
+       /* gap: 0.2em;*/
+        
+        }
+    .flex1item2{
+        flex-basis: 95%;
+    }
+    overlappingimages{
+        display: block;
+        flex-basis: 40%; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;  
+    }
+    .weddinpplannerparagraph{
+        margin-top: -1em;
+    }
+    .wedding{
+        margin-top: -0.1em
+    }
+    .planners{
+        margin-top: -0.3em ;
+    }
+    .flex2{
+        margin-left: 0;
+       /* display: flex;*/
+    }
+    /*.occae{
+       display: flex;
+       flex-direction: column;
+       flex:1;
+    }*/
+    .wineglassicon{
+    display: block;
+   /* margin-left: auto;
+    margin-right: auto;*/
+    margin-top: 0rem;
+    margin-left: 0rem;
+    }
+    .oca{
+        text-align: left;
+        font-size: 1.5rem; 
+        padding-left: 0.5rem;
+           
+    }
+    .occaeparagraph{
+        padding: 0.5rem;
+        text-align: left;
+        /*color: #9e9494;
+        line-height: 1.5;
+        font-family:Arial, Helvetica, sans-serif;*/
+    }
+    .flex3{
+        /*display: flex;*/
+    }
+    .flower{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .ali{
+        text-align: left;
+        font-size: 1.5rem;
+}
+
+.camera{
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0;
+    margin-left: 0;
+    }
+    .felisheading{
+        text-align: left;
+        font-size: 1.5rem;
+        padding-top: 0;
+        margin-top: 0;
+        padding: 0.1rem;
+
+    }
+    .aliquamparagraph{
+        padding:0;
+        text-align: left;
+        color: #9e9494;
+        line-height: 1.5;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .felsparagraph{
+        padding: 0;
+        text-align: left;
+        color: #9e9494;
+        line-height: 1.5;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .flex2{
+        display: flex;
+        gap: 1rem;
+        margin-top: 7rem;
+        padding-left: 2rem;
+        padding-right: 2rem
+    }
+    .firsthreepicgallery{
+        background: rgb(243, 236, 236);
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        font-size: 1rem;
+        display: flex;
+        padding-right: 2rem;
+        gap: 1em;
+        
+        
+    }
+
+    .outstanding{
+        font-weight: normal;
+        font-size: 1.3rem ;
+        text-align: left;
+    }
+
+    .destwedding{
+        text-align: left;
+        margin-top: 1.2rem;
+        font-size: 2.2rem
+    }
+    .destinationparagragh{
+        padding:0;
+        text-align: left;
+        color: #9e9494;
+        line-height: 1.5;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    .flex4item1{
+        flex: 2;
+        display: flex;
+        gap: 1em;
+        justify-content:flex-start
+        
+    }
+
+    .flex4item2{
+        flex: 1;
+        font-size: 1rem;
+        justify-content: start;
+    }
+    .pent{
+        flex: 1;
+        padding-right: 0;
+        
+    }
+        
+        .bridalgirl{
+            padding: 0;
+        }
+.dubai{
+    align-items: flex-start;
+}
+
+
+
+
+
+    .flex4item3{
+       flex: 1; 
+       
+    }
+    
+
+   
+    /*.flex4item3 .nicevenue{
+        margin-top: 2rem;
+        display: block;
+        margin-left: 0;
+        margin-right:0;
+        width: 100%;
+        margin-top: 2rem;
+        padding: 0;
+    }*/
+
+    .flex5item1{
+        display:flex;
+        gap: 1em;
+        padding-left: 2em;
+        padding-right: 2em;
+        
+    }
+
+    .flex5item2{
+        display:flex;
+        gap: 1em;
+        padding-left: 2em;
+        padding-right: 2em;
+        
+    }
+
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        margin-top: 0rem;
+        
+     }
+    .center{
+        padding: 0;
+    }
+   .contact{
+    display: flex;
+   
+   }
+
+   .secondgrand{
+    flex: 1;
+    padding: 5em;
+    
+   }
+
+   .contactus{
+    flex: 1;
+    padding: 2em;
+
+   }
+
+   .hero1{
+    height: 70vh;
+    font-size: 1.2rem;
+    padding: 3em;
+    }
+   .followus{
+    padding: 2em 1em;
+    position: relative;
+    text-align: center;
+    background-image: url(hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+   /* background-color: rgba(0, 0, 0, 0.5);*/
+    background-blend-mode: darken;
+    color: #fff;  
+    margin-top: 2rem; 
+    margin-bottom: 2rem
+     
+    }
+    .heroabout{
+        height: 70vh;
+        font-size: 1.2rem;
+        padding: 3em;
+    }
+    .heroservices{
+        height: 70vh;
+        font-size: 1.2rem;
+        padding: 3em; 
+    }
+
+    .envelope{
+        /*position: absolute;*/
+       /* top: 4rem;*/
+       /* left: 11rem;*/
+       display: block;
+       margin-left: 0rem;
+       margin-top: 0rem;
+       margin-left: auto;
+       margin-right: auto;
+       width:50px;
+       
+    }
+
+    .collabo{
+        /* padding-top: 7rem;*/
+         text-align: center;
+         font-size: 1.5rem;
+        
+     }
+     .helperparagraph1{
+        padding: 1rem;
+        text-align: center;
+        color: #9e9494;
+        line-height: 1.5;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top: 0rem; 
+        margin-left:0;
+        margin-right: 0;
+    }
+    .globe{
+        /* margin-left: 11rem ;*/
+         margin-top: 0rem;
+         /*position: absolute;*/
+       /*  bottom: 3rem;
+         left: 11rem;*/
+         display: block;
+         margin-left: auto;
+        margin-right: auto;
+         width:50px;
+     }
+     .selectdestinationhead{
+        text-align: center;
+        font-size: 1.5rem;
+        /*margin-top:7rem ;*/
+        margin-bottom:0 ;
+        
+    }
+    .helperparagraph2{
+        margin-bottom: 5rem;
+        font-family: sans-serif;
+        line-height: 1.5;
+        color:  #9e9494;
+        padding:0;
+        margin-top: 1rem; 
+        text-align: center;   
+        }
+        .calculator{
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+            display: block;
+            margin-left: auto;
+           margin-right: auto;
+           width:50px;
+        }
+
+        .plan{
+            text-align: center;
+            font-size: 1.5rem; 
+            padding-bottom: 0rem;
+            margin-top: 0.0rem;
+
+
+        }
+        
+        .helperparagraph3{
+            margin-bottom: 3rem;
+            font-family: sans-serif;
+            line-height: 1.5;
+            color:  #9e9494;
+            padding:0;
+            margin-top:1rem; 
+            text-align: center;   
+            }
+            .aboutflex{
+                display: flex;
+                gap: 8rem;
+                margin: 4rem;
+               
+                
+            }
+            
+         .helperdiv{
+            justify-self: start;
+            flex: 1;
+         }   
+           .selectdestination{
+            flex: 1;
+           }
+
+           .startplan{
+            flex: 1;
+           }
+         .flowerbride{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 95%;
+            margin-top: 0rem;
+        }
+       
+        .placet{
+               display: block;
+               color: rgb(226, 59, 59);
+               font-size: 0.9rem;
+               font-weight: lighter;
+               margin-top: -0.3rem;
+               padding-top: 0;
+              
+           }
+           .firstset{
+               font-size: 2.5rem;
+               font-weight:bolder;
+               font-family: sans-serif;
+               text-align: center;
+               margin-bottom: 0;
+              
+               
+           }
+           
+           .firstnumbers{
+               padding-bottom: 2rem;
+               margin-top: 1rem;
+               
+           }
+           .darkdiv{
+            display: flex;
+            justify-content: center;
+            gap:5rem;
+           }
+           .firstnumbers{
+            display: flex;
+           }
+           .firstset{
+            flex: 1;
+           }
+           .sec{
+                margin-left: 1rem;
+           }
+          /* .flex6item1{
+            flex: 1;
+           }
+
+           .flex6item2{
+            flex: 1;
+           }*/
+           .groom{
+            margin-top: 0;
+           }
+            
+           .meetplanners h1{
+            text-align: left;
+            margin-left: 2rem;
+           } 
+           .planerparagragh{
+            text-align: left;
+            margin-left: 1rem;
+           }
+           .meetplanners{
+            background-color: #fff;
+           }
+           .team1{
+            display: block;
+            margin-left: 0;
+            margin-right: 0;
+            width: 95%;
+            margin-top: 0rem;
+            padding-bottom: 1rem; 
+        } 
+        .team{
+            display: flex;
+            margin: 3rem;
+            
+            
+        }
+       
+     
+}
+
+@media (min-width: 800px){
+    .hero1{
+        padding: 2em 1em;
+        font-size: 1.2rem;
+        padding: 3em;
+        position: relative;
+        text-align: center;
+        background-image: url(weeding-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+        color: #fff;    
+    }
+    
+    .followus{
+        padding: 2em 1em;
+        font-size: 1.2rem;
+        padding: 3em;
+        position: relative;
+        text-align: center;
+        background-image: url(hero.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+        color: #fff;    
+    }
+
+    .followus{
+        padding: 2em 1em;
+        font-size: 1.2rem;
+        padding: 3em;
+        position: relative;
+        text-align: center;
+        background-image: url(hero.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+        color: #fff;    
+    }
+    .hero2{
+        padding: 2em 1em;
+        font-size: 1.2rem;
+        padding: 3em;
+        position: relative;
+        text-align: center;
+        background-image: url(pic16.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+        color: #fff;    
+    }
+
+    .heroabout{
+        padding: 2em 1em;
+        font-size: 1.2rem;
+        padding: 3em;
+        position: relative;
+        text-align: center;
+        background-image: url(about-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+        color: #fff;  
+    }
+
+    .heroservices{
+    padding: 2em 1em;
+    font-size: 1.2rem;
+    padding: 3em;
+    position: relative;
+    text-align: center;
+    background-image: url(services-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 55vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    color: #fff;    
+    }
+
+    .herogallery{
+        padding: 2em 1em;
+        font-size: 1.2rem;
+        padding: 3em;
+        position: relative;
+        text-align: center;
+        background-image: url(pic25-free-img.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 50vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+        color: #fff;     
+     }
+     .serviceshero{
+        height: 55vh;
+     }
+
+    
+}
+@media (min-width: 700px){
+.center1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;   
+ }
+
+ .center2{
+    display: block;
+    margin-top: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;   
+ }
+.servicethebest{
+    display: flex;
+    gap: 1rem;
+}
+.flexservicesitem1{
+    flex: 1;
+}
+.servicesgallery{
+    flex: 2;
+    display: flex;
+    gap: 1rem;
+    
+}
+.center2{
+   /* display: flex;*/
+   /* flex-direction: column;*/
+    flex: 1.2 ;
+    
+}
+
+.flexservicesitem3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.catering{
+    margin: 0
+}
+.servicesicon{
+    
+}
+
+.iconservice{
+    display: flex;
+    gap: 1rem;
+   margin: 1rem;
+   margin-left: 2rem;
+   margin-right: 2rem
+}
+}
+video{
+    height: auto;
+    width: 100%;
+    margin-top: 2rem;
+}
+.volup{
+    background-color: rgb(243, 236, 236)  ;
+    padding: 3rem;
+}
+
+.voluparagraph{
+    font-size: 1.4rem;
+    word-spacing: 0.2rem;
+    text-align: center;
+}
+
+.ayesha{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+@media (min-width: 650px){
+.galleryphoto{
+    padding-bottom: 5rem;
+}
+
+    .galleryphoto1{
+        display: flex;
+        gap: 1rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .galleryphoto2{
+        display:flex; 
+        gap: 1rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+
+    .volup{
+        background-color: rgb(243, 236, 236)  ;
+        padding: 4rem;
+        margin-top: 2rem;
+        flex-basis: 90%;
+    }
+
+    .souvenir1{
+        background-color: white;
+        display: flex;
+        gap: 2rem
+    }
+
+    .video{
+        flex-basis: 10%;
+    }
+     .reverse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .ayesha{
+        font-size: 3rem;
+    }
+
+    .footer > p + p{
+        margin-top: 0rem;
+    
+    }
+    .footer{
+        display: flex;
+    }
+
+    .footer p{
+        flex: 1;
+        gap: 8rem;
+      
+    }
+    /*.followus{
+        text-align: left;
+    }*/
+}
+
+i{
+    font-size: 2rem;
+    margin: 1rem;
+    color: white;
+
+}
+
+.socialicons{
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+figcaption i{
+    font-size: 2rem;
+    margin: 0.2rem;
+    color:  rgb(240, 124, 124); 
+}
+
+.mike i{
+    margin-top: 1rem;
+}
+
+.jane i{
+    margin-top: -1rem;
+}
+.julia i{
+    margin-top: 1rem;
+}
+
+.matt i{
+    margin-top: 1rem;
+}
